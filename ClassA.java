@@ -30,9 +30,9 @@ class ClassC extends ClassB{
         ClassC c = new ClassC();
         ClassA a2 = new ClassC();
 
-        c.m1();
-        c.m2();
-        c.m3();
+        a2.m1();
+        a2.m2();
+        a2.m3();
     }
 }
 
