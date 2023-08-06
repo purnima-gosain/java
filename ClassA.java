@@ -13,13 +13,13 @@
 
 class ClassB extends ClassA{
     void m1(){
-        System.out.print("B's m1, "+(ivar+6));
+        System.out.print("B's m1, ");
     }
 }
 
 class ClassC extends ClassB{
     void m3(){
-        System.out.print("C's m3, ");
+        System.out.print("C's m3, "+(ivar+6) +" ");
     }
 }
 
@@ -30,9 +30,9 @@ class ClassC extends ClassB{
         ClassC c = new ClassC();
         ClassA a2 = new ClassC();
 
-        b.m1();
+        c.m1();
         c.m2();
-        a.m3();
+        c.m3();
     }
 }
 
