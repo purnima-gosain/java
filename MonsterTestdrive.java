@@ -12,14 +12,14 @@ public class MonsterTestdrive {
 }
 
 class Monster{
-    boolean frighten(int x){
+    boolean frighten(int z){
         System.out.println("arrrgh");
         return false;
     }
 }
 
 class Vampire extends Monster{
-    boolean scare(int x){
+    boolean frighten(byte b){
         System.out.println("a bite?");
         return true;
     }
