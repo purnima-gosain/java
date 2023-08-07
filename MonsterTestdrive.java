@@ -19,7 +19,7 @@ class Monster{
 }
 
 class Vampire extends Monster{
-    boolean frighten(int d){
+    boolean frighten(int x){
         System.out.println("a bite?");
         return false;
     }
@@ -30,3 +30,4 @@ class Dragon extends Monster{
         return true;
     }
 }
+
