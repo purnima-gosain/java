@@ -20,3 +20,18 @@ public class TestBoats {
         System.out.print("drift ");
     }
 }
+
+class Sailboat extends Boat{
+    public void move(){
+        System.out.print(" hoist sail ");
+    }
+}
+
+class RowBoat extends Boat{
+    public void rowTheBoat(){
+        System.out.print("stroke natasha");
+    }
+
+}
+
+
