@@ -6,9 +6,9 @@ public class TestBoats {
         Sailboat b2 = new Sailboat();
         RowBoat b3 = new RowBoat();
         b2.setLength(32);
-        b1.getLength();
-        b3.move();
         b1.move();
+        b3.move();
+        b2.move();
     }
 }
 
