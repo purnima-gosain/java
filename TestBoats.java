@@ -2,7 +2,13 @@ public class TestBoats {
     
 
     public static void main(String[] args){
-
+        Boat b1 = new Boat();
+        Sailboat b2 = new Sailboat();
+        RowBoat b3 = new RowBoat();
+        b2.setLength(32);
+        b1.getLength();
+        b3.move();
+        b1.move();
     }
 }
 
@@ -17,7 +23,7 @@ public class TestBoats {
     }
 
     public void move(){
-        System.out.print("drift ");
+        System.out.print(" drift ");
     }
 }
 
