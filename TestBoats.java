@@ -23,8 +23,15 @@ public class TestBoats {
 
 class Sailboat extends Boat{
     public void move(){
-        System.out.println(" hoist sail ");
+        System.out.print(" hoist sail ");
     }
+}
+
+class RowBoat extends Boat{
+    public void rowTheBoat(){
+        System.out.print("stroke natasha");
+    }
+
 }
 
 
